@@ -1,7 +1,3 @@
-<!-- awesome =>roadmap,...
-BEST => contributing,
-before tech stack from BEST -->
-
 <a name="readme-top"></a>
 
 <div align="center">
@@ -15,57 +11,60 @@ before tech stack from BEST -->
 
 <!-- Badges -->
 <p>
-  <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
+  <a href="https://github.com/yusufadell/readme-compo/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/yusufadell/readme-compo" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/Louis3797/awesome-readme-template" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/yusufadell/readme-compo" alt="last update" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/network/members">
-    <img src="https://img.shields.io/github/forks/Louis3797/awesome-readme-template" alt="forks" />
+  <a href="https://github.com/yusufadell/readme-compo/network/members">
+    <img src="https://img.shields.io/github/forks/yusufadell/readme-compo" alt="forks" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/stargazers">
-    <img src="https://img.shields.io/github/stars/Louis3797/awesome-readme-template" alt="stars" />
+  <a href="https://github.com/yusufadell/readme-compo/stargazers">
+    <img src="https://img.shields.io/github/stars/yusufadell/readme-compo" alt="stars" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/issues/">
-    <img src="https://img.shields.io/github/issues/Louis3797/awesome-readme-template" alt="open issues" />
+  <a href="https://github.com/yusufadell/readme-compo/issues/">
+    <img src="https://img.shields.io/github/issues/yusufadell/readme-compo" alt="open issues" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Louis3797/awesome-readme-template.svg" alt="license" />
+  <a href="https://github.com/yusufadell/readme-compo/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/yusufadell/readme-compo.svg" alt="license" />
   </a>
 </p>
 
 <h4>
-    <a href="https://github.com/Louis3797/awesome-readme-template/">View Demo</a>
+    <a href="https://github.com/yusufadell/readme-compo/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template">Documentation</a>
+    <a href="https://github.com/yusufadell/readme-compo">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Report Bug</a>
+    <a href="https://github.com/yusufadell/readme-compo/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Request Feature</a>
+    <a href="https://github.com/yusufadell/readme-compo/issues/">Request Feature</a>
   </h4>
+
 </div>
 
-<br />
+<br/>
 
 <!-- Table of Contents -->
 # :notebook_with_decorative_cover: Table of Contents
 
-- [:notebook_with_decorative_cover: Table of Contents](#notebook_with_decorative_cover-table-of-contents)
-  - [:star2: About the Project](#star2-about-the-project)
+- [:notebook\_with\_decorative\_cover: Table of Contents](#notebook_with_decorative_cover-table-of-contents)
+  - [:star2: About project\_title](#star2-about-project_title)
     - [:camera: Screenshots](#camera-screenshots)
-    - [:space_invader: Tech Stack](#space_invader-tech-stack)
+    - [:space\_invader: Tech Stack](#space_invader-tech-stack)
   - [:toolbox: Getting Started](#toolbox-getting-started)
     - [:bangbang: Prerequisites](#bangbang-prerequisites)
     - [:gear: Installation](#gear-installation)
-    - [:test_tube: Running Tests](#test_tube-running-tests)
+    - [Type checks](#type-checks)
+    - [:test\_tube: Running Tests](#test_tube-running-tests)
+    - [Test coverage](#test-coverage)
+      - [Running tests with pytest](#running-tests-with-pytest)
     - [:running: Run Locally](#running-run-locally)
-    - [:triangular_flag_on_post: Deployment](#triangular_flag_on_post-deployment)
   - [:eyes: Usage](#eyes-usage)
   - [:compass: Roadmap](#compass-roadmap)
   - [:wave: Contributing](#wave-contributing)
     - [:scroll: Code of Conduct](#scroll-code-of-conduct)
-  - [:grey_question: FAQ](#grey_question-faq)
+  - [:grey\_question: FAQ](#grey_question-faq)
   - [:warning: License](#warning-license)
   - [:handshake: Contact](#handshake-contact)
   - [:gem: Acknowledgements](#gem-acknowledgements)
@@ -73,7 +72,9 @@ before tech stack from BEST -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- About the Project -->
-## :star2: About the Project
+## :star2: About project_title
+
+Use the `BLANK_README.md` to get started.
 
 <!-- Screenshots -->
 ### :camera: Screenshots
@@ -85,7 +86,7 @@ before tech stack from BEST -->
 <!-- TechStack -->
 ### :space_invader: Tech Stack
 
-<details>
+<details open>
   <summary>Client</summary>
   <ul>
     <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
@@ -95,7 +96,7 @@ before tech stack from BEST -->
   </ul>
 </details>
 
-<details>
+<details open>
   <summary>Server</summary>
   <ul>
     <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
@@ -109,7 +110,7 @@ before tech stack from BEST -->
   </ul>
 </details>
 
-<details>
+<details open>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.mysql.com/">MySQL</a></li>
@@ -120,7 +121,7 @@ before tech stack from BEST -->
   </ul>
 </details>
 
-<details>
+<details open>
 <summary>DevOps</summary>
   <ul>
     <li><a href="https://www.docker.com/">Docker</a></li>
@@ -167,12 +168,32 @@ before tech stack from BEST -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Running Tests -->
+### Type checks
+
+Running type checks with mypy:
+
+```bash
+  mypy project_title
+```
+
 ### :test_tube: Running Tests
 
 To run tests, run the following command
 
+### Test coverage
+
+To run the tests, check your test coverage, and generate an HTML coverage report:
+
 ```bash
-  yarn test test
+  coverage run -m pytest\
+  coverage html\
+  open htmlcov/index.html\
+```
+
+#### Running tests with pytest
+
+```basg
+  pytest
 ```
 
 <!-- Run Locally -->
@@ -181,34 +202,26 @@ To run tests, run the following command
 Clone the project
 
 ```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
+  git clone https://github.com/yusufadell/readme-compo.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd project_title
 ```
 
 Install dependencies
 
 ```bash
-  yarn install
+  pip install -r requirements/local.txt
 ```
 
 Start the server
 
 ```bash
-  yarn start
-```
-
-<!-- Deployment -->
-### :triangular_flag_on_post: Deployment
-
-To deploy this project run
-
-```bash
-  yarn deploy
+  python mananage.py migrate\
+  python manage.py runserver
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -218,12 +231,13 @@ To deploy this project run
 
 Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
 
-```javascript
-import Component from 'my-project'
+```python
+from project_title import project_title
 
-function App() {
-  return <Component />
-}
+@project_title
+def main():
+  return "Hello Yusuf!"
+
 ```
 
 <!-- Roadmap -->
@@ -239,8 +253,8 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <!-- Contributing -->
 ## :wave: Contributing
 
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
+<a href="https://github.com/yusufadell/readme-compo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=yusufadell/readme-compo" />
 </a>
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -261,7 +275,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- Code of Conduct -->
 ### :scroll: Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
+Please read the [Code of Conduct](https://github.com/yusufadell/readme-compo/blob/master/CODE_OF_CONDUCT.md)
 
 <!-- FAQ -->
 ## :grey_question: FAQ
@@ -286,7 +300,7 @@ Distributed under the no License. See LICENSE.txt for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
+Project Link: [https://github.com/yusufadell/readme-compo](https://github.com/yusufadell/readme-compo)
 
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements
@@ -299,38 +313,3 @@ Use this section to mention useful resources and libraries that you have used in
 - [Readme Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com
