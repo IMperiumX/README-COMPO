@@ -2,14 +2,15 @@
 
 <div align="center">
 
-  <img src="images/logo.svg" alt="logo" width="200" height="auto" />
+<img src="images/logo.svg" alt="logo" width="200" height="auto" />
   <h1>Readme Template</h1>
 
-  <p>
+<p>
     An README template for your projects!
   </p>
 
 <!-- Badges -->
+
 <p>
   <a href="https://github.com/yusufadell/readme-compo/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/yusufadell/readme-compo" alt="contributors" />
@@ -46,6 +47,7 @@
 <br/>
 
 <!-- Table of Contents -->
+
 # :notebook_with_decorative_cover: Table of Contents
 
 - [:notebook\_with\_decorative\_cover: Table of Contents](#notebook_with_decorative_cover-table-of-contents)
@@ -72,11 +74,13 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- About the Project -->
+
 ## :star2: About project_title
 
 Use the `BLANK_README.md` to get started.
 
 <!-- Screenshots -->
+
 ### :camera: Screenshots
 
 <div align="center">
@@ -84,6 +88,7 @@ Use the `BLANK_README.md` to get started.
 </div>
 
 <!-- TechStack -->
+
 ### :space_invader: Tech Stack
 
 <details open>
@@ -133,13 +138,15 @@ Use the `BLANK_README.md` to get started.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Getting Started -->
+
 ## :toolbox: Getting Started
 
 <!-- Prerequisites -->
+
 ### :bangbang: Prerequisites
 
 - npm
-
+  
   ```sh
   npm install npm@latest -g
   ```
@@ -147,20 +154,21 @@ Use the `BLANK_README.md` to get started.
 ### :gear: Installation
 
 1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
 
+2. Clone the repo
+   
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
 
 3. Install NPM packages
-
+   
    ```sh
    npm install
    ```
 
 4. Enter your API in `config.js`
-
+   
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
@@ -168,6 +176,7 @@ Use the `BLANK_README.md` to get started.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Running Tests -->
+
 ### Type checks
 
 Running type checks with mypy:
@@ -197,6 +206,7 @@ To run the tests, check your test coverage, and generate an HTML coverage report
 ```
 
 <!-- Run Locally -->
+
 ### :running: Run Locally
 
 Clone the project
@@ -227,6 +237,7 @@ Start the server
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Usage -->
+
 ## :eyes: Usage
 
 Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
@@ -237,10 +248,10 @@ from project_title import project_title
 @project_title
 def main():
   return "Hello Yusuf!"
-
 ```
 
 <!-- Roadmap -->
+
 ## :compass: Roadmap
 
 - [x] Todo 1
@@ -251,6 +262,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Contributing -->
+
 ## :wave: Contributing
 
 <a href="https://github.com/yusufadell/readme-compo/graphs/contributors">
@@ -273,29 +285,33 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Code of Conduct -->
+
 ### :scroll: Code of Conduct
 
 Please read the [Code of Conduct](https://github.com/yusufadell/readme-compo/blob/master/CODE_OF_CONDUCT.md)
 
 <!-- FAQ -->
+
 ## :grey_question: FAQ
 
 - Question 1
-
+  
   - Answer 1
 
 - Question 2
-
+  
   - Answer 2
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- License -->
+
 ## :warning: License
 
 Distributed under the no License. See LICENSE.txt for more information.
 
 <!-- Contact -->
+
 ## :handshake: Contact
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
@@ -303,6 +319,7 @@ Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_
 Project Link: [https://github.com/yusufadell/readme-compo](https://github.com/yusufadell/readme-compo)
 
 <!-- Acknowledgments -->
+
 ## :gem: Acknowledgements
 
 Use this section to mention useful resources and libraries that you have used in your projects.
