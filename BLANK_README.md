@@ -325,6 +325,8 @@ Distributed under the no License. See LICENSE.txt for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - <email@email_client.com>
 
+LinkedIn: [https://www.linkedin.com/in/linkedin_username/](https://www.linkedin.com/in/imperiumx/)
+
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 <!-- Acknowledgments -->
