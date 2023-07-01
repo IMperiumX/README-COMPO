@@ -89,7 +89,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- TechStack -->
 ### :space_invader: Tech Stack
 
-<details open>
+<details closes>
   <summary>Client</summary>
   <ul>
     <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
@@ -99,7 +99,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
   </ul>
 </details>
 
-<details open>
+<details closes>
   <summary>Server</summary>
   <ul>
     <li><a href="https://www.djangoproject.com/">Django</a></li>
@@ -109,7 +109,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
   </ul>
 </details>
 
-<details open>
+<details closes>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.mysql.com/">MySQL</a></li>
@@ -120,7 +120,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
   </ul>
 </details>
 
-<details open>
+<details closes>
 <summary>DevOps</summary>
   <ul>
     <li><a href="https://www.docker.com/">Docker</a></li>
