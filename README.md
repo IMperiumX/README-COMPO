@@ -11,34 +11,34 @@
 
 <!-- Badges -->
 <p>
-  <a href="https://github.com/github_username/readme-compo/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/github_username/readme-compo" alt="contributors" />
+  <a href="https://github.com/imperiumx/readme-compo/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/imperiumx/readme-compo" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/github_username/readme-compo" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/imperiumx/readme-compo" alt="last update" />
   </a>
-  <a href="https://github.com/github_username/readme-compo/network/members">
-    <img src="https://img.shields.io/github/forks/github_username/readme-compo" alt="forks" />
+  <a href="https://github.com/imperiumx/readme-compo/network/members">
+    <img src="https://img.shields.io/github/forks/imperiumx/readme-compo" alt="forks" />
   </a>
-  <a href="https://github.com/github_username/readme-compo/stargazers">
-    <img src="https://img.shields.io/github/stars/github_username/readme-compo" alt="stars" />
+  <a href="https://github.com/imperiumx/readme-compo/stargazers">
+    <img src="https://img.shields.io/github/stars/imperiumx/readme-compo" alt="stars" />
   </a>
-  <a href="https://github.com/github_username/readme-compo/issues/">
-    <img src="https://img.shields.io/github/issues/github_username/readme-compo" alt="open issues" />
+  <a href="https://github.com/imperiumx/readme-compo/issues/">
+    <img src="https://img.shields.io/github/issues/imperiumx/readme-compo" alt="open issues" />
   </a>
-  <a href="https://github.com/github_username/readme-compo/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/github_username/readme-compo.svg" alt="license" />
+  <a href="https://github.com/imperiumx/readme-compo/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/imperiumx/readme-compo.svg" alt="license" />
   </a>
 </p>
 
 <h4>
-    <a href="https://github.com/github_username/readme-compo/">View Demo</a>
+    <a href="https://github.com/imperiumx/readme-compo/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/github_username/readme-compo">Documentation</a>
+    <a href="https://github.com/imperiumx/readme-compo">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/github_username/readme-compo/issues/">Report Bug</a>
+    <a href="https://github.com/imperiumx/readme-compo/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/github_username/readme-compo/issues/">Request Feature</a>
+    <a href="https://github.com/imperiumx/readme-compo/issues/">Request Feature</a>
   </h4>
 
 </div>
@@ -77,7 +77,7 @@
 
 An README template for your projects!
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `readme-compo`, `imperiumxx`, `yusufadel`, `gmail`, `yusufadell.dev`, `README-COMPO`, `An README template for your projects!`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `imperiumx`, `readme-compo`, `imperiumxx`, `yusufadel`, `gmail`, `yusufadell.dev`, `README-COMPO`, `An README template for your projects!`
 
 <!-- Screenshots -->
 ### :camera: Screenshots
@@ -205,7 +205,7 @@ To run the tests, check your test coverage, and generate an HTML coverage report
 Clone the project
 
 ```bash
-  git clone https://github.com/github_username/readme-compo.git
+  git clone https://github.com/imperiumx/readme-compo.git
 ```
 
 Go to the project directory
@@ -268,8 +268,8 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <!-- Contributing -->
 ## :wave: Contributing
 
-<a href="https://github.com/github_username/readme-compo/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=github_username/readme-compo" />
+<a href="https://github.com/imperiumx/readme-compo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=imperiumx/readme-compo" />
 </a>
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -300,7 +300,7 @@ This will ensure that your code is cleaned before you commit it.
 <!-- Code of Conduct -->
 ### :scroll: Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/github_username/readme-compo/blob/master/CODE_OF_CONDUCT.md)
+Please read the [Code of Conduct](https://github.com/imperiumx/readme-compo/blob/master/CODE_OF_CONDUCT.md)
 
 <!-- FAQ -->
 ## :grey_question: FAQ
@@ -325,7 +325,7 @@ Distributed under the no License. See LICENSE.txt for more information.
 
 Your Name - [@imperiumxx](https://twitter.com/imperiumxx) - <README-COMPOdev@gmail.com>
 
-Project Link: [https://github.com/github_username/readme-compo](https://github.com/github_username/readme-compo)
+Project Link: [https://github.com/imperiumx/readme-compo](https://github.com/imperiumx/readme-compo)
 
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements
