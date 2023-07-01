@@ -91,7 +91,7 @@ Use the `BLANK_README.md` to get started.
 
 ### :space_invader: Tech Stack
 
-<details open>
+<details closed>
   <summary>Client</summary>
   <ul>
     <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
@@ -101,7 +101,7 @@ Use the `BLANK_README.md` to get started.
   </ul>
 </details>
 
-<details open>
+<details closed>
   <summary>Server</summary>
   <ul>
     <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
@@ -115,7 +115,7 @@ Use the `BLANK_README.md` to get started.
   </ul>
 </details>
 
-<details open>
+<details closed>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.mysql.com/">MySQL</a></li>
@@ -126,7 +126,7 @@ Use the `BLANK_README.md` to get started.
   </ul>
 </details>
 
-<details open>
+<details closed>
 <summary>DevOps</summary>
   <ul>
     <li><a href="https://www.docker.com/">Docker</a></li>
