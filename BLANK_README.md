@@ -63,6 +63,7 @@
   - [:eyes: Usage](#eyes-usage)
   - [:compass: Roadmap](#compass-roadmap)
   - [:wave: Contributing](#wave-contributing)
+  - [Commiting your code](#commiting-your-code)
     - [:scroll: Code of Conduct](#scroll-code-of-conduct)
   - [:grey\_question: FAQ](#grey_question-faq)
   - [:warning: License](#warning-license)
@@ -101,14 +102,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <details open>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-    <li><a href="https://go.dev/">Golang</a></li>
-    <li><a href="https://nestjs.com/">Nest.js</a></li>
-    <li><a href="https://socket.io/">SocketIO</a></li>
-    <li><a href="https://www.prisma.io/">Prisma</a></li>
-    <li><a href="https://www.apollographql.com/">Apollo</a></li>
-    <li><a href="https://graphql.org/">GraphQL</a></li>
+    <li><a href="https://www.djangoproject.com/">Django</a></li>
+    <li><a href="https://www.django-rest-framework.org/">Django REST Framework</a></li>
+    <li><a href="https://channels.readthedocs.io/en/stable/">Django Channels</a></li>
+    <li><a href="https://www.graphene-python.org/">Graphene</a></li>
   </ul>
 </details>
 
@@ -140,32 +137,36 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- Prerequisites -->
 ### :bangbang: Prerequisites
 
-- npm
+activate virtualenv and install requirements
 
-  ```sh
-  npm install npm@latest -g
-  ```
+```sh
+  pip install -r requirements/local.txt
+```
 
 ### :gear: Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+Via pip into a `virtualenv`:
 
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
+```sh
+  pip install repo_name
+```
 
-3. Install NPM packages
+In `settings.py` add the following:
 
-   ```sh
-   npm install
-   ```
+```python
 
-4. Enter your API in `config.js`
+INSTALLED_APPS = (
+    ...
+    'repo_name'
+)
 
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+```
+
+To enable access to the user interface add the following to your urls.py:
+
+```python
+urlpatterns += [path('repo-name/', include('repo-name.urls', namespace='repo-name'))]
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,14 +232,26 @@ Start the server
 <!-- Usage -->
 ## :eyes: Usage
 
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
+Example 1: Creating a New User
+To create a new user, make a POST request to the /api/users/ endpoint with the required user information.
 
 ```python
-from project_title import project_title
+import requests
 
-@project_title
-def main():
-  return "Hello Yusuf!"
+url = "http://localhost:8000/api/users/"
+
+data = {
+    "username": "john_doe",
+    "email": "john.doe@example.com",
+    "password": "secretpassword",
+}
+
+response = requests.post(url, json=data)
+
+if response.status_code == 201:
+    print("User created successfully!")
+else:
+    print("Failed to create user.")
 
 ```
 
@@ -272,6 +285,16 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## Commiting your code
+
+Before sending patches please make sure you have [pre-commit](https://pre-commit.com/) activated in your local git repository:
+
+```sh
+pre-commit install
+```
+
+This will ensure that your code is cleaned before you commit it.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Code of Conduct -->
@@ -300,7 +323,7 @@ Distributed under the no License. See LICENSE.txt for more information.
 <!-- Contact -->
 ## :handshake: Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - <email@email_client.com>
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
