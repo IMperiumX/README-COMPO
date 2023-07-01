@@ -305,13 +305,20 @@ Please read the [Code of Conduct](https://github.com/github_username/repo_name/b
 <!-- FAQ -->
 ## :grey_question: FAQ
 
-- Question 1
+<details closes>
+  <summary>Question 1</summary>
+  <p>Answer</p>
+</details>
 
-  - Answer 1
+<details closes>
+  <summary>Question 2</summary>
+  <p>Answer</p>
+</details>
 
-- Question 2
-
-  - Answer 2
+<details closes>
+  <summary>Question 3</summary>
+  <p>Answer</p>
+</details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
